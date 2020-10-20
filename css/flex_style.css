@@ -1,0 +1,90 @@
+
+ul {
+    
+    display: flex;
+    flex-wrap: wrap;
+   }
+ul>li  {
+    display: inline-block;
+    justify-content: space-around;
+    width: 150px;
+    justify-content: center;
+    
+  
+ }
+ul>li:last-child{
+    margin-left: auto;
+    
+}
+ 
+
+
+body {
+    background-image: url(https://la-cascade.io/content/images/2014/Mar/gradients9.png);
+    background-position: center;
+    background-size: cover;
+}
+ main {
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 199, 143);
+    flex-wrap: wrap;
+}
+
+main>article {
+    width: 300px;
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+
+}
+header {
+   
+     text-align: center;
+    
+    
+}
+h1 {
+    color: rgb(112, 50, 39);
+}
+h2 {
+    color: rgb(112, 50, 39);
+}
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+   }
+       
+section>div{
+ 
+  
+    width: 180px;
+   color: rgb(112, 50, 39);
+   
+  }
+
+
+button:hover {
+        color: lightcoral;
+    }
+a:hover {
+        color: lightcoral;
+    }
+ 
+
+.lorem:hover {
+font-style: italic;
+font-family: fantasy;
+color: blue;
+}
+
+h2:hover {
+    color: blue;
+    font-style: italic;
+    font-size: 70px;
+} 

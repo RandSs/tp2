@@ -1,0 +1,54 @@
+ ul {
+  
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    justify-content: space-around;
+   
+   
+    }
+   
+ 
+ ul li{
+
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    
+
+}
+.logo{
+    width: 80px;
+   align-items: baseline;
+
+}
+ 
+
+main {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+article  {
+    width: 200px;
+  
+    color: blue;
+    border-style: double;
+   
+}
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    font-size: larger;
+    color: chocolate;
+}
